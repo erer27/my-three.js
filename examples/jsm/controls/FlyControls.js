@@ -71,7 +71,7 @@ class FlyControls extends EventDispatcher {
 				case 'ArrowDown': this.moveState.pitchDown = 1; break;
 
 				case 'ArrowLeft': this.moveState.yawLeft = 1; break;
-				case 'ArrowRight': /*this.moveState.yawRight*/ = 1; break;
+				case 'ArrowRight': /*this.moveState.yawRight = 1*/; break;
 
 				case 'KeyQ': this.moveState.rollLeft = 1; break;
 				case 'KeyE': this.moveState.rollRight = 1; break;
